@@ -32,74 +32,54 @@ form{
   font-family: 'Product Sans', sans-serif;
 }
 
-#fname{
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="checkbox"],
+input[type="tel"]{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
   width: 100%;
+  box-sizing: border-box;
 }
+
+
 
 #fname label{
     display: block;
+	padding-bottom: 0.25em;
 }
 
-#lname{
-  text-align: center;
-  font-size: 1.5em;
-  padding: 0.5em;
-  width: 100%;
-}
+
 
 #lname label{
 	display: block;
+	padding-bottom: 0.25em;
 }
 
-#gdate{
-  text-align: center;
-  font-size: 1.5em;
-  padding: 0.5em;
-  width: 100%;
-
-}
 
 #gdate label{
 	display: block;
+	padding-bottom: 0.25em;
 }
 
-#cgpa{
-  text-align: center;
-  font-size: 1.5em;
-  padding: 0.5em;
-  width: 100%;
-
-}
 
 #cgpa label{
-	
+	display: block;
+	padding-bottom: 0.25em;
 }
 
-#emailadd{
-  text-align: center;
-  font-size: 1.5em;
-  padding: 0.5em;
-  width: 100%;
-
-}
 
 #emailadd label{
 	display: block;
+	padding-bottom: 0.25em;
 }
 
-#fnum{
-  text-align: center;
-  font-size: 1.5em;
-  padding: 0.5em;
-  width: 100%;
-
-}
 
 #fnum label{
 	display: block;
+	padding-bottom: 0.25em;
 }
 
 #submitb{
@@ -107,6 +87,8 @@ form{
   font-size: 1.5em;
   padding: 0.5em;
   width: 100%;
+  box-sizing: border-box;
+
 }
 
 input[type=submit]:hover {
