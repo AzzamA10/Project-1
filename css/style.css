@@ -1,34 +1,39 @@
-.fname{
+h1{
   text-align: center;
   font-size: 1.5em;
 }
 
-.lname{
+#fname{
   text-align: center;
   font-size: 1.5em;
 }
 
-.gdate{
+#lname{
   text-align: center;
   font-size: 1.5em;
 }
 
-.cgpa{
+#gdate{
   text-align: center;
   font-size: 1.5em;
 }
 
-.emailadd{
+#cgpa{
   text-align: center;
   font-size: 1.5em;
 }
 
-.fnum{
+#emailadd{
   text-align: center;
   font-size: 1.5em;
 }
 
-.submitb{
+#fnum{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#submitb{
   text-align: center;
   font-size: 1.5em;
 }
