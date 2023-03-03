@@ -38,48 +38,42 @@ input[type="date"],
 input[type="checkbox"],
 input[type="tel"]{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 0.5em;
   width: 100%;
   box-sizing: border-box;
 }
 
-
+label{
+	display: block;
+	padding-bottom: 0.25em;
+	font-size: 1.5em;
+	padding: 0.5em;
+	text-align: center;
+}
 
 #fname label{
-    display: block;
-	padding-bottom: 0.25em;
+  color:#4285F4;	
 }
-
-
 
 #lname label{
-	display: block;
-	padding-bottom: 0.25em;
+  color:#DB4437;	
 }
-
 
 #gdate label{
-	display: block;
-	padding-bottom: 0.25em;
+  color:#F4B400;	
 }
-
 
 #cgpa label{
-	display: block;
-	padding-bottom: 0.25em;
+  color:#0F9D58;	
 }
-
 
 #emailadd label{
-	display: block;
-	padding-bottom: 0.25em;
+  color:#4285F4;	
 }
 
-
 #fnum label{
-	display: block;
-	padding-bottom: 0.25em;
+  color:#DB4437;	
 }
 
 #submitb{
@@ -92,5 +86,5 @@ input[type="tel"]{
 }
 
 input[type=submit]:hover {
-  background-color: red;	
+  background-color: #0F9D58;	
 }
