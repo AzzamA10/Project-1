@@ -1,27 +1,34 @@
 .fname{
-  
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .lname{
-	
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .gdate{
-	
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .cgpa{
-	
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .emailadd{
-	
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .fnum{
-	
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .submitb{
-	
+  text-align: center;
+  font-size: 1.5em;
 }
