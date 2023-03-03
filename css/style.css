@@ -15,12 +15,13 @@ form{
   padding: 2em;
   margin-right: 25%;
   margin-left: 25%;
+  font-family: 'Product Sans', sans-serif;
 }
 
 #fname{
   text-align: center;
   font-size: 1.5em;
-  
+  padding: 0.5em;
 }
 
 #fname label{
@@ -30,6 +31,7 @@ form{
 #lname{
   text-align: center;
   font-size: 1.5em;
+  padding: 0.5em;
 }
 
 #lname label{
@@ -39,6 +41,7 @@ form{
 #gdate{
   text-align: center;
   font-size: 1.5em;
+  padding: 0.5em;
 }
 
 #gdate label{
@@ -48,6 +51,7 @@ form{
 #cgpa{
   text-align: center;
   font-size: 1.5em;
+  padding: 0.5em;
 }
 
 #cgpa label{
@@ -57,6 +61,7 @@ form{
 #emailadd{
   text-align: center;
   font-size: 1.5em;
+  padding: 0.5em;
 }
 
 #emailadd label{
@@ -66,6 +71,7 @@ form{
 #fnum{
   text-align: center;
   font-size: 1.5em;
+  padding: 0.5em;
 }
 
 #fnum label{
@@ -75,4 +81,5 @@ form{
 #submitb{
   text-align: center;
   font-size: 1.5em;
+  padding: 0.5em;
 }
