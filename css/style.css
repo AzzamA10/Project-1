@@ -4,7 +4,7 @@ body{
 h1{
   background-color: #4285F4;
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Product Sans', sans-serif;
   color: white;
   padding: 0.5em;
@@ -13,7 +13,7 @@ h1{
 p{
   background-color: #4285F4;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: 'Product Sans', sans-serif;
   color: white;
   padding-bottom: 1em;
@@ -25,7 +25,7 @@ form{
   border-radius: 3em;
   border-color: red;
   outline: 0.25em solid gray;
-  padding: 2em;
+  padding: 0.75em;
   margin-right: 25%;
   margin-left: 25%;
   margin-top: 5%;
@@ -38,8 +38,8 @@ input[type="date"],
 input[type="checkbox"],
 input[type="tel"]{
   text-align: center;
-  font-size: 1em;
-  padding: 0.5em;
+  font-size: 0.5em;
+  padding: 0.3em;
   width: 100%;
   box-sizing: border-box;
 }
@@ -47,8 +47,8 @@ input[type="tel"]{
 label{
 	display: block;
 	padding-bottom: 0.25em;
-	font-size: 1.5em;
-	padding: 0.5em;
+	font-size: 1em;
+	padding: 0.3em;
 	text-align: center;
 }
 
@@ -78,7 +78,7 @@ label{
 
 #submitb{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 0.5em;
   width: 100%;
   box-sizing: border-box;
@@ -90,9 +90,77 @@ input[type=submit]:hover {
 }
 
 @media screen and (min-width: 800px){
-
+  h1{
+    font-size: 5em;
+  }
+  
+  p{
+    font-size: 1.25em;  
+  }
+  
+  form{
+    padding: 1em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="checkbox"],
+  input[type="tel"]{
+    text-align: center;
+    font-size: 0.75em;
+    padding: 0.4em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  label{
+	display: block;
+	padding-bottom: 0.25em;
+	font-size: 1.25em;
+	padding: 0.4em;
+	text-align: center;
+  }
+  
+  #submitb{
+    font-size: 1.25em
+  }
 }
 
 @media screen and (min-width: 1500px){
-	
+  h1{
+    font-size: 6em;
+  }
+  
+  p{
+    font-size: 1.5em;
+  }
+  
+  form{
+    padding: 2em;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="checkbox"],
+  input[type="tel"]{
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  label{
+	display: block;
+	padding-bottom: 0.25em;
+	font-size: 1.5em;
+	padding: 0.5em;
+	text-align: center;
+  }
+  
+  #submitb{
+    font-size: 1.5em
+  }
 }
