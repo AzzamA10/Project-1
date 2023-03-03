@@ -1,15 +1,30 @@
 body{
   background-image: url(../images/outside.jpg);
 }
-
 h1{
   text-align: center;
-  font-size: 1.5em;
+  font-size: 5em;
+  font-family: 'Product Sans', sans-serif;
+}
+
+form{
+  width: auto;
+  background-color: #4285F4;
+  border-radius: 1em;
+  border-color: black;
+  padding: 2em;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 #fname{
   text-align: center;
   font-size: 1.5em;
+  
+}
+
+#fname label{
+    display: block;
 }
 
 #lname{
@@ -17,9 +32,17 @@ h1{
   font-size: 1.5em;
 }
 
+#lname label{
+	display: block;
+}
+
 #gdate{
   text-align: center;
   font-size: 1.5em;
+}
+
+#gdate label{
+	display: block;
 }
 
 #cgpa{
@@ -27,14 +50,26 @@ h1{
   font-size: 1.5em;
 }
 
+#cgpa label{
+	
+}
+
 #emailadd{
   text-align: center;
   font-size: 1.5em;
 }
 
+#emailadd label{
+	display: block;
+}
+
 #fnum{
   text-align: center;
   font-size: 1.5em;
+}
+
+#fnum label{
+	display: block;
 }
 
 #submitb{
