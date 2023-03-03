@@ -2,19 +2,33 @@ body{
   background-image: url(../images/outside.jpg);
 }
 h1{
+  background-color: #4285F4;
   text-align: center;
   font-size: 5em;
   font-family: 'Product Sans', sans-serif;
+  color: white;
+  padding: 0.5em;
+}
+
+p{
+  background-color: #4285F4;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Product Sans', sans-serif;
+  color: white;
+  padding-bottom: 1em;
 }
 
 form{
   width: auto;
-  background-color: #4285F4;
-  border-radius: 1em;
-  border-color: black;
+  background-color: white;
+  border-radius: 3em;
+  border-color: red;
+  outline: 0.25em solid gray;
   padding: 2em;
   margin-right: 25%;
   margin-left: 25%;
+  margin-top: 5%;
   font-family: 'Product Sans', sans-serif;
 }
 
@@ -22,6 +36,7 @@ form{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
+  width: 100%;
 }
 
 #fname label{
@@ -32,6 +47,7 @@ form{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
+  width: 100%;
 }
 
 #lname label{
@@ -42,6 +58,8 @@ form{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
+  width: 100%;
+
 }
 
 #gdate label{
@@ -52,6 +70,8 @@ form{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
+  width: 100%;
+
 }
 
 #cgpa label{
@@ -62,6 +82,8 @@ form{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
+  width: 100%;
+
 }
 
 #emailadd label{
@@ -72,6 +94,8 @@ form{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
+  width: 100%;
+
 }
 
 #fnum label{
@@ -82,4 +106,9 @@ form{
   text-align: center;
   font-size: 1.5em;
   padding: 0.5em;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: red;	
 }
