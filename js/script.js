@@ -5,10 +5,10 @@ function init(){
     if(check.checked){
       window.alert("You meet the GPA requirement, Welcome to Google!");
     }
-	else
-	{
-	  window.alert("You do not meet the GPA requirement, good luck next year.");	
-	}
+    else
+    {
+      window.alert("You do not meet the GPA requirement, good luck next year.");	
+    }
   };
   
   var submitb = document.getElementById("submitt");
